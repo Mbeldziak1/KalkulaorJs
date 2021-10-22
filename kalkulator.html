@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=Number(prompt("Podaj liczbe a"));
+        let b=Number(prompt("Podaj liczbe b"));
+        let o=Number(prompt("Podaj działanie które chcesz wykonać 1-"+", 2-"-", 3-"*", 4-"/" "));
+        let dodawanie = a+b;
+        let odejmowanie = a-b;
+        let mnozenie = a*b;
+        let dzielenie = a/b;
+        
+
+        switch(o){
+            case 1:
+            document.write(dodawanie);
+            break;
+
+            case 2:
+            document.write(odejmowanie);
+            break;
+
+            case 3:
+            document.write(mnozenie);
+            break;
+
+            case 4:
+            document.write(dzielenie);
+            break;
+
+        }
+
+    </script>
+</body>
+</html>
